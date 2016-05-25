@@ -1,0 +1,53 @@
+<ion-view view-title="Conceição">
+<ion-slides  options="options" slider="data.slider" id="txtcenter" >
+  <ion-slide-page>
+        <img id="imgbus" src="img/conceicao/2/21.jpg"> 
+  </ion-slide-page>
+  <ion-slide-page>
+        <img id="imgbus" src="img/conceicao/2/22.jpg"> 
+  </ion-slide-page>
+  <ion-slide-page>
+        <img id="imgbus" src="img/conceicao/2/23-69.jpg"> 
+  </ion-slide-page>
+  <ion-slide-page>
+        <img id="imgbus" src="img/conceicao/2/30.jpg"> 
+  </ion-slide-page>
+  <ion-slide-page>
+        <img id="imgbus" src="img/conceicao/2/31.jpg"> 
+  </ion-slide-page>
+  <ion-slide-page>
+        <img id="imgbus" src="img/conceicao/2/41.jpg"> 
+  </ion-slide-page>
+  <ion-slide-page>
+        <img id="imgbus" src="img/conceicao/2/59.jpg"> 
+  </ion-slide-page>
+  <ion-slide-page>
+        <img id="imgbus" src="img/conceicao/2/63.jpg"> 
+  </ion-slide-page>
+  <ion-slide-page>
+        <img id="imgbus" src="img/conceicao/2/71.jpg"> 
+  </ion-slide-page>
+  <ion-slide-page>
+        <img id="imgbus" src="img/conceicao/2/76.jpg"> 
+  </ion-slide-page>
+  <ion-slide-page>
+        <img id="imgbus" src="img/conceicao/2/83.jpg"> 
+  </ion-slide-page>
+  <ion-slide-page>
+        <img id="imgbus" src="img/conceicao/2/587.jpg"> 
+  </ion-slide-page>
+  <ion-slide-page>
+        <img id="imgbus" src="img/conceicao/2/6004.jpg"> 
+  </ion-slide-page>
+</ion-slides>
+</ion-view>
+$scope.options = {
+  loop: false,
+  effect: fade,
+  speed: 500,
+}
+$scope.data = {};
+$scope.$watch('data.slider', function(nv, ov) {
+  $scope.slider = $scope.data.slider;
+})
+
